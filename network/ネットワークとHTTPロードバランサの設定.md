@@ -15,7 +15,6 @@ https://google.qwiklabs.com/focuses/12007?parent=catalog
   
  ## 環境構築（webサーバーインスタンスを用意する）
  1. webサーバインスタンスで使用するnginxをセットアップするスクリプトの作成
- ```cat << EOF > startup.sh #! /bin/bash apt-get update apt-get install -y nginx service nginx start sed -i -- 's/nginx/Google Cloud Platform - '"\$HOSTNAME"'/' /var/www/html/index.nginx-debian.html EOF
- ```
+ ```cat << EOF > startup.sh #! /bin/bash apt-get update apt-get install -y nginx service nginx start sed -i -- 's/nginx/Google Cloud Platform - '"\$HOSTNAME"'/' /var/www/html/index.nginx-debian.html EOF ```
  1. 
  
